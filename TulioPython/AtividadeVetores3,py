@@ -1,0 +1,13 @@
+#Maior Elemento:
+#Escreva um programa que encontre e exiba o maior elemento em um vetor.
+
+mn = 0
+vetor = [1,2,3,4]
+contador = 0
+
+while contador < len(vetor):
+    ponteiro = vetor[contador]
+    if ponteiro > mn:
+        mn = ponteiro
+    contador += 1
+print(mn)
